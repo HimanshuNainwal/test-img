@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask-restful = "*"
+flask = "*"
+flask-jwt-extended = "*"
+passlib = "*"
+pillow-pil = "*"
+flask-sqlalchemy = "*"
+psycopg2-binary = "*"
+python-dotenv = "*"
+flask-uploads = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
